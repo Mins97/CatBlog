@@ -1,3 +1,39 @@
 @charset "UTF-8";
 
-h1{color:#FF0000;}
+/*윈도우 배경색 설정*/
+body{background-color: :#fbf9cc;}
+/*링크색상 설정*/
+a{color:#df4839;}
+a:hover{color:#ff705b;}
+/*페이지 제목 설정*/
+h1{
+	color: #6fbb9a;
+	text-align: center;
+	font-size: 250%
+}
+/*큰 표제 설정*/
+h2{
+	color: #6fbb9a;
+	border: #94c8b1 1px dotted;
+	padding: 5px 20px;
+	margin-bottom: 0px
+}
+/*정보 데이터 표제 설정*/
+dt{font-weight: bold;}
+/*리드문 영역 설정*/
+#lead{
+	border-top: #6fbb9a 1px dotted;
+	border-bottom: #6fbb9a 1px dotted;
+	padding: 15px;
+	text-align: center;
+}
+/*'더보기'링크 설정*/
+.more{text-align: center;}
+/*털, 성별 정보(공통)*/
+
+/*성별에 따른 색상 구분*/
+.cat-type{
+	font-size: 80%;
+	font-weight: normal;
+}
+.cat-type.
