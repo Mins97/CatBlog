@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>고양이 지원자 양식</title>
+</head>
+<body>
+	<form id="entryForm" action="#" method="post">
+		<table border="1px">
+			<tr>
+				<th>고양이 이름:</th>
+				<td><input type="text" name="cat-name"></td>
+			</tr>
+			<tr>
+				<th>기르는 주인 이름:</th>
+				<td><input type="text" name="cat-master"></td>
+			</tr>
+			<tr>
+				<th>메일주소:</th>
+				<td><input type="email" name="cat-email"></td>
+			</tr>
+			<tr>
+				<th>주소:</th>
+				<td><select name="cat-address">
+					<option value="" selected>선택해주세요.</option>
+					<option value="서울" >서울</option>
+					<option value="경기도" >경기도</option>
+					<option value="경상도" >경상도</option>
+					<option value="강원도" >강원도</option>
+					<option value="전라도" >전라도</option>
+					<option value="충청도" >충청도</option>
+					<option value="제주도" >제주도</option>
+					<option value="독도" >독도</option>
+				</select></td>
+			</tr>
+			<tr>
+				<th>성별:</th>
+				<td>
+					<input type="radio" name="cat-sex" value="male">수컷
+					<input type="radio" name="cat-sex" value="female">암컷
+				</td>
+			</tr>
+			<tr>
+				<th>좋아하는것:</th>
+				<td>
+					<input type="checkbox" name="cat-lik1" value="생선">생선
+					<input type="checkbox" name="cat-lik2" value="고기">고기
+					<input type="checkbox" name="cat-lik3" value="우유">우유
+					<input type="checkbox" name="cat-lik4" value="튀김">튀김
+					<input type="checkbox" name="cat-lik5" value="단것">단것
+					<input type="checkbox" name="cat-lik6" value="통조림">통조림
+				</td>
+			</tr>
+			<tr>
+				<th>사진:</th>
+				<td><input type="file" name="cat-photo"></td>
+			</tr>
+			<tr>
+				<th>코멘트:</th>
+				<td><textarea name="comment" cols="40" rows="4"></textarea></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

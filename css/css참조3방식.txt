@@ -1,0 +1,12 @@
+1)<h1 style="color:#FF0000;">제목</h1>
+
+2)
+<head>
+<style>
+	h1{color:#FF0000;}
+</style>
+</head>
+
+3)
+basic.css
+<link href="경로" rel="stylesheet" media="all">
